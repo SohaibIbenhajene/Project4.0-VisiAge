@@ -34,11 +34,17 @@ To begin using the Automatic Fall Detection Alert System, follow these simple st
    - Caregiver: `jonasjoe@visiage.com`
    - Administrator: `admin@visiage.com`
 
-6. **Initiate Monitoring**: Once logged in, the app will begin monitoring for fall detection incidents automatically. Dependents can also manually trigger alerts when needed.
-
 ## Note
 
 This application is designed exclusively for Android devices and is not available for iOS.
+
+## Additional Information
+
+To utilize the AI detection capabilities of the Automatic Fall Detection Alert System, additional hardware is required:
+- **Microphone Setup**: For audio-based detection.
+- **Camera Setup**: For visual-based detection.
+
+This README covers only the app part of the project. Ensure you have the necessary hardware to fully utilize the AI detection features.
 
 ---
 
