@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 6.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "REACT_APP_SAS_TOKEN": "sp=racwdli&st=2024-02-02T11:26:33Z&se=2025-02-02T19:26:33Z&spr=https&sv=2022-11-02&sr=c&sig=fdffeGnnBsYPvkA8NOwdIr3XZaealqLVjY2qiDdpEWE%3D"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "preview4": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}

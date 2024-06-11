@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "visi-age",
+    "slug": "visi-age",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "infoPlist": {
+        "NSMotionUsageDescription": "Allow $(PRODUCT_NAME) to access your device motion."
+      },
+      "bundleIdentifier": "com.visiage.visiage"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.visiage.visiage",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "DEFAULT"
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow $(PRODUCT_NAME) to access your device motion."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7f924d6c-6f9d-41f5-85f7-faf88357c68b"
+      }
+    },
+    "owner": "project_40_team_c1"
+  }
+}

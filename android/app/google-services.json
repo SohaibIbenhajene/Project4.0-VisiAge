@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "45883083814",
+    "project_id": "visi-age",
+    "storage_bucket": "visi-age.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45883083814:android:af7781f9ca4e455a482ae7",
+        "android_client_info": {
+          "package_name": "com.visiage.visiage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0zkCMnHOwd_wnMBI7qRSwdaI-DY53mSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
