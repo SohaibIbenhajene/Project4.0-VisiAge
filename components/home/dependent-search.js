@@ -26,7 +26,6 @@ export default function DependentSearch({ isInsight = false, isManageSetups = fa
         const fetchDependents = async () => {
             try {
                 const data = await fetchData('user');
-                console.log(data);
                 // filter the data to only get the dependents on roleId = 1
                 const filteredData = data.filter((user) => user.roleId === 1);
 

@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://appserviceproject4tm20241.azurewebsites.net/api/visiage';
+const API_BASE_URL = 'https://visiagebackend.azurewebsites.net/api/visiage';
 const BLOB_BASE_URL = 'https://stproject4tm20241.blob.core.windows.net/mycontainer';
 
 export const fetchData = async (endpoint) => {
