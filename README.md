@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Automatic Fall Detection Alert System! This mobile application is designed to provide timely alerts for fall detection incidents, ensuring the safety and well-being of dependents under care. The app enables automatic detection of falls and allows dependents to create manual alerts when needed.
+Welcome to the Automatic Fall Detection Alert System! This mobile application is designed to provide timely alerts for fall detection incidents, ensuring the safety and well-being of dependents under care. The app enables automatic detection of falls and allows dependents to create manual alerts when needed. Please note that this app is only available for Android devices.
 
 ## Features
 
@@ -20,12 +20,26 @@ Welcome to the Automatic Fall Detection Alert System! This mobile application is
 
 To begin using the Automatic Fall Detection Alert System, follow these simple steps:
 
-1. **Download the APK**: Download the latest version of the APK file by going to this [link](https://visiage.pippeloo.com/download/visiage/app-release.apk).
+1. **Download the APK**: Download the latest version of the APK file by going to this [link](https://drive.google.com/file/d/1HW60zXgBQg0fRWmfSRMdVSUGDsK57ueY/view?usp=sharing).
    
-2. **Install the App**: Install the downloaded APK file on your Android device.
+2. **Download the XAPKS Installer**: Since the downloaded file will be in `.apks` format, you need to download the XAPKS Installer app from the Google Play Store.
 
-3. **Grant Permissions**: Upon installation, grant any necessary permissions required by the app to ensure proper functionality.
+3. **Install the APK**: Open the XAPKS Installer, select the downloaded `.apks` file, and follow the instructions to install it on your Android device.
 
-4. **Log In**: Log in with your credentials to access the app's features.
+4. **Grant Permissions**: Upon installation, grant any necessary permissions required by the app to ensure proper functionality.
 
-5. **Initiate Monitoring**: Once logged in, the app will begin monitoring for fall detection incidents automatically. Dependents can also manually trigger alerts when needed.
+5. **Log In**: Log in with your credentials to access the app's features. You can use the following test accounts:
+   - Dependent: `johnsmith@visiage.com`
+   - Confidant: `rosahendriks@visiage.com`
+   - Caregiver: `jonasjoe@visiage.com`
+   - Administrator: `admin@visiage.com`
+
+6. **Initiate Monitoring**: Once logged in, the app will begin monitoring for fall detection incidents automatically. Dependents can also manually trigger alerts when needed.
+
+## Note
+
+This application is designed exclusively for Android devices and is not available for iOS.
+
+---
+
+Enjoy using the Automatic Fall Detection Alert System to ensure the safety and well-being of your dependents.
